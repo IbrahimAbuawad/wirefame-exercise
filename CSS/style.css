@@ -1,0 +1,92 @@
+body{
+    box-sizing: border-box;
+
+}
+
+.container{
+    margin: 0px auto;
+    width: 70%;
+}
+.container img{
+    width:max-content
+}
+header{
+}
+.navBar{
+    background-color: rgb(66, 65, 65);
+    overflow:auto;
+    margin-bottom: 10px;
+
+}
+.navBar img{
+    float: left;
+    padding: 10px ;
+
+}
+.navBar ul {
+  float: right;  
+  padding: 20px ;
+
+
+}
+.navBar ul li {
+    list-style: none;
+    display: inline-block;
+    color: gray;
+    margin-right: 40px;
+    
+
+
+    
+
+}
+
+.navBar ul li a{
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+
+
+}
+.subBanner {
+    float: right;
+
+}
+.subBanner img{
+    margin-right: 5px;
+
+}
+
+.featuredBanner{
+    float: left;
+width: 50%;
+margin-right: 0px;
+}
+
+.sideBanner{
+float: right;
+width: 40%;
+padding-left: 10%;
+}
+.sideBanner p {
+    font-size: large;
+}
+.sideBanner button {
+    padding: 10px 20px ;
+    background-color: black;
+    color: wheat;
+}
+
+
+.clear {
+    clear: both;
+}
+footer{
+    text-align: center;
+    background-color:rgb(66, 65, 65);
+}
+footer p {
+padding :20px;
+}
+
+
